@@ -1,0 +1,1 @@
+export default (mapper) => (component) => (targetElement, state, events) => component(targetElement, mapper(state), events)
